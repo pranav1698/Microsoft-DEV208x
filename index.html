@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <style>
+            div{
+                margin-top: .1em;
+            }
+
+            
+        </style>
+    </head>
+
+    <body>
+                    
+        <div id='target'>Demo-element</div>
+
+        
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.js"></script>
+    
+        <script> 
+            $(function () {
+              $('div').click(() => $('#target').text('Div was clicked'));
+            })
+        </script>
+    </body>
+</html>
